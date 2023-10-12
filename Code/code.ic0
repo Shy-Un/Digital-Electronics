@@ -1,0 +1,27 @@
+* "simulator" "HSPICE" 
+* "version" "A-2008.03 32-BIT"
+* "format" "HSP"
+* "rundate" "19:49:50 06/22/2017 "
+* "netlist" "c:\users\shayan\desktop\uni stuff\8\digital elec\vol project\code\code.sp "
+* "runtitle" "*hybric xor-xnor-based full adder"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ and =   0.            
++ b =   0.            
++ ci =   0.            
++ cin =   0.            
++ cout =   0.            
++ ind =   0.            
++ sum =   0.            
++ sup =   1.0000        
++ vdd =   0.            
++ xnor =   0.            
++ xor =   0.            
++ x2.vdd =   0.            
++ x3.notcout =   0.            
+***   END: Saved Operating Point ***                     

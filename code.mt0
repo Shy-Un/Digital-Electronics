@@ -1,0 +1,10 @@
+$DATA1 SOURCE='HSPICE' VERSION='A-2008.03 32-BIT'
+.TITLE '*** hybrid xor-xnor based fa ***'
+ pow              delay1           delay2           delay3            
+ d1               tp1              delay4           delay5            
+ delay6           d2               tp2              tp                
+ pdp              temper           alter#            
+  1.549e-05        5.015e-09       -1.499e-08       -4.984e-09        
+  5.015e-09        5.015e-09        1.001e-08       -4.992e-09        
+  1.002e-08        1.001e-08        1.002e-08        1.002e-08        
+  1.551e-13         25.0000           1.0000         

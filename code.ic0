@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "A-2008.03 32-BIT"
+* "format" "HSP"
+* "rundate" "09:38:18 06/25/2018 "
+* "netlist" "c:\users\shayan\desktop\uni stuff\8\digital elec\vol project\code.sp "
+* "runtitle" "*** hybrid xor-xnor based fa ***"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ ci = 999.9506m       
++ cin =   0.            
++ cout =  32.0891u       
++ ind = 999.7485m       
++ sum = 105.0798u       
++ sup =   1.0000        
++ xnor = 999.5972m       
++ xor =  51.9127u       
++ x3.notcout = 999.7393m       
+***   END: Saved Operating Point ***                     

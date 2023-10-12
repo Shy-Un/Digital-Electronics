@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='A-2008.03 32-BIT'
+.TITLE '*hybric xor-xnor-based full adder'
+ pow              pdp              temper           alter#            
+  2.921e-05        1.125e-03         25.0000           1.0000         

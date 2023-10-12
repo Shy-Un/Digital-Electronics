@@ -1,0 +1,67 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/SHAYAN/Desktop/UNi stuff/8/Digital Elec/Vol Project/Code/code.tr0}} 1 openonly
+# PF:1
+pf:read PF:1 v(sum)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+ScopeSigMgr:UnloadMdi:ArrangeIcons
+}
+Graph0 delsignal Signal0
+Mdi:ArrangeIcons
+Graph:DSel 0
+Mdi:ArrangeIcons
+Mdi:ArrangeIconMdi:ArrangeIcons
+dpffile {{C:/Users/SHAYAN/Desktop/UNi stuff/8/Digital Elec/Vol Project/Code/code.tr0}} 1 openonly
+# PF:2
+pf:read PF:2 v(b)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:2 v(sum)
+# WF:2:2
+Graph addsignal WF:2:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) code.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/SHAYAN/Desktop/UNi stuff/8/Digital Elec/Vol Project/Code/code.tr0}} 1 openonly
+# PF:3
+pf:read PF:3 v(sum)
+# WF:3:1
+Graph addsignal WF:3:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:FullSize
+wm geometry .sigmgr._PF:3 200x331+1207+437
+wm geometry .sigmgr 367x200+773+525
+pf:read PF:3 v(b)
+# WF:3:2
+Graph addsignal WF:3:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:3 v(ci)
+# WF:3:3
+Graph addsignal WF:3:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:3 v(cin)
+# WF:3:4
+Graph addsignal WF:3:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+pf:read PF:3 v(cout)
+# WF:3:5
+Graph addsignal WF:3:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal4
+wm geometry .sigmgr 367x200+715+666
+wm geometry .sigmgr._PF:3 200x331+1359+474
+Mdi:ArrangeIcons
+wm geometry . 1536x821+20+20
+wm geometry .sigmgr._PF:3 200x331+287+670
+wm geometry .sigmgr 367x200+535+756
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
